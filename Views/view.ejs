@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        view data
+    </h1>
+    <a href="/">
+        back to home
+    </a>
+
+
+    <table class="text-center" width="1000px" cellspacing="2" cellpadding="1" border="1">
+        <thead>
+            <tr>
+                <th>
+                    No
+                </th>
+                <th>
+                    BookName
+                </th>
+                <th>
+                   Page
+                </th>
+                <th>
+                    Author
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+           <% books.forEach((book , index)=>{%>
+
+                <tr>
+                    <td>
+                        <%=index + 1%>
+                    </td>
+                    <td>
+                        <%=book.title%>
+                    </td>
+                    <td>
+                        <%=book.page%>
+                    </td>
+                    <td>
+                        <%=book.author%>
+                    </td>
+                </tr>
+          <% }) %>
+        </tbody>
+    </table>
+</body>
+</html>

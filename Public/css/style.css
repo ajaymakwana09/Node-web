@@ -1,0 +1,530 @@
+:root{
+    --bs-primary:#ca9c5e;
+    --bs-primary-rgb:202, 156, 94;
+    --bs-secondary:#ffffff;
+    --bs-secondary-rgb:255, 255, 255;
+    --bs-dark:rgb(11, 21, 23);
+    --bs-dark-rgb:11, 21, 23;
+	--bs-border-width:3px;
+	--bs-border-color: #ca9c5e; 
+	--bs-btn-bg:#ca9c5e !important;
+    --bs-btn-border-color: #ca9c5e !important;
+	-bs-btn-hover-bg: #ca9c5e;
+	--bs-body-font-family : 'Reforma 2018 Blanca';
+}
+
+body{
+	overflow-x:hidden;
+}
+
+header{
+	position: absolute;
+    z-index: 9999;
+    width: 100%;
+	height: 100vh;
+}
+
+header .logo img{
+    width: 80%;
+} 
+
+.py-120{
+	padding-top:120px;
+	padding-bottom:120px;
+}
+
+.py-100{
+	padding-top:100px;
+	padding-bottom:100px;
+}
+
+.py-150{
+	padding-top:150px;
+	padding-bottom:100px;
+}
+
+.social-icon i{
+	font-size:19px;
+}
+
+.mega-dropdown-menu{
+	width: 1169px;
+	height: 530px;
+	background-color: #fff;
+	transition: all 0.5s;
+	visibility: hidden;
+	overflow-y: Scroll;
+	opacity: 0;
+	top: 15%;
+	left:7%;
+	z-index: 10000;
+}
+
+.mega-dropdown:hover .mega-dropdown-menu{
+	visibility: visible;
+	opacity: 1;
+}
+
+nav ul li a:hover{
+	color:var(--bs-primary) !important;
+	border-bottom:2px solid var( --bs-primary) 	;
+	transition:all 0.5s;
+}
+
+nav ul .dropdown:hover .dropdown-menu{
+	display:block;
+}
+
+
+.left-leaf1{
+	left:-5%;
+}
+
+.right-leaf2{
+	right:-5%
+}
+
+.banner{
+	background-image: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:center;
+	/* border: 8px solid var(--bs-primary); */
+	height : 100vh;	
+}
+	
+
+.banner span{
+	font-size:18px;	
+}
+
+.banner h1{
+	font-size:90px;
+}
+
+.banner{
+	z-index:1;
+	
+}
+
+.banner::after{
+	position:absolute;
+	content:'';
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,0.2);
+	top:0;
+	left:0;
+	z-index:-1;
+}
+
+.left-leaf3{
+	left:-7%;
+	top:140% !important;
+	width:350px !important;
+}
+
+.right-leaf4{
+	right:-2%;
+	width:250px !important;	
+}
+
+.d-content h5{
+	font-size:45px;
+}
+
+.d-content h6{
+	font-size:16px;
+}
+
+.fs-heading{
+	font-size:65px;
+}
+.fs-heading1{
+	font-size:36px;
+}
+.fs-heading2{
+	font-size:24px;
+}
+.fs-heading3{
+	font-size:16px;
+}
+.fs-heading4{
+	font-size:22px;
+}
+.fs-heading5{
+	font-size:20px;
+}
+
+.menus-new{
+	background-color:#ca9c5e;
+	height:0 auto;
+	height:8vh;
+	border-radius:5px;
+}
+
+.menus-new .border{
+	border-width:2px !important;
+} 
+
+.Reservation{
+	background-image:url(../images/nong-vang.jpg);
+	background-position:center;
+	background-size: cover;
+	height:80vh;
+}
+
+.Reservation::after{
+	position:absolute;
+	content:'';
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,0.3);
+	top:0;
+	left:0;
+	z-index:-1;
+}
+
+.Reservation{
+	z-index:1;
+}
+
+.wilma p{
+	font-size:16px;
+	letter-spacing: 2px;
+	
+}
+
+.wilma h2{
+	font-size:65px;
+}
+
+footer img{
+	width:80%;
+}
+.left-leaf5{
+	 width:330px !important; 
+	 z-index:-1;
+}
+
+.right-leaf6{ 
+	width:55% !important;
+	top:61% !important;
+	right:-32%;
+	z-index:-1;	
+}
+
+.good h1{
+	font-size:90px;
+}
+
+.good span{
+	letter-spacing:2px;
+}
+
+
+
+.image-3{
+	width:600px;
+}
+
+.image-4{
+	width:440px;
+	left:33%;
+	top:100px !important;
+}
+
+.items h6{
+	font-size:18px;
+}
+
+
+.items p{
+	font-size:14px;
+}
+
+.items .border{
+	border-width:1px !important;
+}
+
+.left-leaf{
+	width: 35%;
+	top: 120%;
+}
+
+.right-leaf{
+	z-index:99999;
+}  
+
+
+.wrappex{
+	background-image: url(../images/image-from-rawpixel-id-415001-jpeg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 8px solid var(--bs-primary);
+	height : 100vh;
+}
+
+
+.left-leaf1{
+	left:-7%;
+}
+
+
+.right-leaf2{
+	right:-7%;
+}
+
+.wrappex span{
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.wrappex h1{
+    font-size: 90px;
+    line-height: 1em;
+}
+
+.wrappex p{
+	font-size: 18px;
+    font-weight: 400;
+	letter-spacing:1px;
+}
+
+.left-leaf9{
+	top:80%;
+	width:22% !important;
+	left:-7%;
+}
+
+.right-leaf10{
+	right:-5%;
+}
+.cooking h3{
+	font-size:34px;
+}
+
+.cooking span{
+	font-size:24px;
+	font-weight: 600;
+}
+
+.cooking p{
+	font-size:16px;
+	font-weight: 600;
+}
+
+.cooking button {
+	background-color:#ca9c5e;
+}
+
+
+.dinner {
+	border-radius:2%;
+	border-width:1px !important;
+}
+.lunch{
+	border-radius:2%;
+	border-width:1px !important;
+}
+
+.wrapeed{
+	z-index:1;
+}
+
+.wrapeed {
+	background-image:url(../images/alasdair-elmes-ULHxWq8reao-unsplash.jpg);
+	background-position:center;
+	background-size: cover;
+	height : 60vh;
+}
+
+.wrapeed::after{
+	position:absolute;
+	content:'';
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,0.1);
+	top:0;
+	left:0;
+	z-index:-1;
+}
+
+.discover{
+	background-image:url(../images/fish-tilapia-cooked-in-tazhin-and-vegetables-copy-PP6NXSH.jpg);
+	background-position:center;
+	background-size: cover;
+	height : 60vh;
+} 
+
+.left-leaf11{
+	left:-6%;
+	top:140%;
+}
+
+
+.right-leaf12{
+	right:-2%;
+	width:250px !important;
+}
+
+.contact{
+	background-image: url(../images/toa-heftiba-weLTddM4cI-unsplash.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:center;
+	border: 8px solid var(--bs-primary);
+	height : 100vh;	
+}
+
+
+.contact::after{
+	position:absolute;
+	content:'';
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,0.0);
+	top:0;
+	left:0;
+	z-index:-1;
+}
+.contact{
+	z-index:1;
+}	
+
+.left-leaf13{
+	left:-31%;
+	width:790px !important;
+}
+
+
+.right-leaf14{
+	right:-12%;
+	width:400px !important;
+}
+
+.left-leaf15{
+	left:-6%;
+}
+
+.right-leaf16{
+	right:-5%;
+}
+
+.contact h1{
+	font-size:90px;
+}
+
+.book h2{
+	font-size:32px;
+}
+
+.book h4{
+	font-size:16px;
+}
+
+.book .booked h2{
+	 font-size:20px;
+ }
+ 
+.map .mapes {
+	 width:100%;
+ }
+ 
+ .form-control {
+	 border-color:white;
+	 background-color:transparent!important;
+	 border-width:1px !important;
+ }
+ 
+ .btn-primary{
+	background-color: #ca9c5e;
+	color: #ffffff;
+    border-color: #ca9c5e;
+	font-size: 16px;
+ }
+ 
+.divider-1{
+	left:30%;
+	top:58%;
+}
+
+.divider-2{
+	right:15%;
+	top:58%;
+}
+
+.divider-3{
+	left:28%;
+	top:58%;
+}
+.divider-4{
+	right:12.5%;
+	top:58%;
+}
+.gallery .gallery-1{
+	background-size: cover;
+	background-position:center;
+	width: 343px;
+    height: 345px;
+	overflow:hidden;
+}
+
+
+.gallery .gallery-2{
+	background-size: cover;
+	background-position:center;
+	width: 517px;
+    height: 345px;
+	overflow:hidden;
+}
+
+
+.gallery .gallery-3{
+	background-size: cover;
+	background-position:center;
+    width: 230px;
+    height: 345px;
+	overflow:hidden;
+}
+
+
+.gallery .gallery-4{
+	background-size: cover;
+	background-position:center;
+	width: 516px;
+    height: 345px;
+	overflow:hidden;
+}
+
+
+.gallery .gallery-5{
+	background-size: cover;
+	background-position:center;
+	width: 229px;
+    height: 345px;
+	overflow:hidden;
+}
+
+
+.gallery .gallery-6{
+	background-size: cover;
+	background-position:center;
+	width: 345px;
+    height: 345px;
+	overflow:hidden;
+}
+.gallery .gallery0 img{
+	width:100%;
+	border-radius:10%;
+}
+.gallery .gallery0 img:hover{
+	transform:scale(1.1);
+	transition:all 0.8s;
+}
+
+.wrappexer .wrap h2{
+	background-color:#ca9c5e;
+}
